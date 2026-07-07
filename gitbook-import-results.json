@@ -1,0 +1,17 @@
+{
+  "HOME": {
+    "status": 204,
+    "space": "cK22UXunchRIA3kQhEs0",
+    "folder": "home"
+  },
+  "PRODUCT": {
+    "status": 204,
+    "space": "sEEGu3MAxk91QBNm5LCe",
+    "folder": "product-docs"
+  },
+  "API": {
+    "status": 204,
+    "space": "KAzzMoG2KOgAYYdWkGHa",
+    "folder": "developer-api"
+  }
+}

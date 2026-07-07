@@ -1,0 +1,104 @@
+{
+  "publish_status": 200,
+  "publish": {
+    "object": "site",
+    "id": "site_dOGMQ",
+    "type": "ultimate",
+    "appliedType": "ultimate",
+    "title": "Nearmap Documentation Hub",
+    "icon": {
+      "icon": {
+        "dark": "https://files.readme.io/22933f1-small-Blue.png",
+        "light": "https://files.readme.io/22933f1-small-Blue.png"
+      }
+    },
+    "basename": "nearmap-documentation-hub",
+    "visibility": "share-link",
+    "permissionsModel": "site",
+    "defaultLevel": null,
+    "published": true,
+    "createdAt": "2026-07-07T11:44:29.000Z",
+    "siteSpaces": 3,
+    "features": [
+      {
+        "id": "sites-share-links",
+        "plan": "premium",
+        "frozen": false
+      },
+      {
+        "id": "sites-ai-assistant",
+        "plan": "ultimate",
+        "frozen": false
+      },
+      {
+        "id": "sites-pdf-export",
+        "plan": "premium",
+        "frozen": false
+      },
+      {
+        "id": "sites-page-feedback",
+        "plan": "premium",
+        "frozen": false
+      },
+      {
+        "id": "sites-advanced-customization",
+        "plan": "premium",
+        "frozen": false,
+        "customizations": [
+          "header-logo",
+          "footer-logo",
+          "footer-links",
+          "footer-copyright",
+          "semantic-colors"
+        ]
+      },
+      {
+        "id": "sites-sections",
+        "plan": "ultimate",
+        "frozen": false
+      }
+    ],
+    "urls": {
+      "location": "/orgs/CnKiKmimJyVAnHLQcyf1/sites/site_dOGMQ",
+      "app": "https://app.gitbook.com/o/CnKiKmimJyVAnHLQcyf1/sites/site_dOGMQ",
+      "preview": "https://sites.gitbook.com/preview/site_dOGMQ/"
+    }
+  },
+  "share_status": 201,
+  "share": {
+    "object": "share-link",
+    "id": "2WleCJPtlVrQOgGmCfFu",
+    "createdAt": "2026-07-07T11:44:47.000Z",
+    "name": "Nearmap demo review",
+    "active": true,
+    "urls": {
+      "published": "https://nearmap-1.gitbook.io/nearmap-documentation-hub/2WleCJPtlVrQOgGmCfFu/"
+    }
+  },
+  "published_url": "https://nearmap-1.gitbook.io/nearmap-documentation-hub/2WleCJPtlVrQOgGmCfFu/",
+  "app_url": "https://app.gitbook.com/o/CnKiKmimJyVAnHLQcyf1/sites/site_dOGMQ",
+  "preview_url": "https://sites.gitbook.com/preview/site_dOGMQ/",
+  "repo": "https://github.com/gitbook-demo-sites/nearmap-demo-site-20260707",
+  "openapi": {
+    "created": true,
+    "slug": "nearmap-ai-feature-api-demo",
+    "spec": {
+      "object": "openapi-spec",
+      "id": "oas_sEBE2",
+      "createdAt": "2026-07-07T11:44:28.000Z",
+      "updatedAt": "2026-07-07T11:44:28.000Z",
+      "slug": "nearmap-ai-feature-api-demo",
+      "processingState": "pending",
+      "visibility": "public",
+      "lastProcessedErrorCount": 0,
+      "permissions": {
+        "view": true,
+        "edit": true
+      },
+      "urls": {
+        "app": "https://app.gitbook.com/o/CnKiKmimJyVAnHLQcyf1/openapi/nearmap-ai-feature-api-demo",
+        "location": "/orgs/CnKiKmimJyVAnHLQcyf1/openapi/nearmap-ai-feature-api-demo"
+      }
+    }
+  }
+}

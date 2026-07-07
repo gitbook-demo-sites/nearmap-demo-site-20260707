@@ -1,0 +1,237 @@
+{
+  "updatedAt": "2026-07-07T11:44:46.000Z",
+  "title": "Nearmap Documentation Hub",
+  "localizedTitle": {},
+  "internationalization": {
+    "locale": "en"
+  },
+  "styling": {
+    "theme": "clean",
+    "primaryColor": {
+      "dark": "#7B8CFF",
+      "light": "#3448FF"
+    },
+    "infoColor": {
+      "dark": "#7B8CFF",
+      "light": "#3448FF"
+    },
+    "successColor": {
+      "dark": "#48D6A5",
+      "light": "#0B8F6A"
+    },
+    "warningColor": {
+      "dark": "#FBBF24",
+      "light": "#F59E0B"
+    },
+    "dangerColor": {
+      "dark": "#F97066",
+      "light": "#D92D20"
+    },
+    "tint": {
+      "color": {
+        "dark": "#08112E",
+        "light": "#F7F9FC"
+      }
+    },
+    "corners": "rounded",
+    "depth": "flat",
+    "links": "accent",
+    "font": "Inter",
+    "monospaceFont": "IBMPlexMono",
+    "icons": "regular",
+    "background": "plain",
+    "sidebar": {
+      "background": "filled",
+      "list": "line"
+    },
+    "codeTheme": {
+      "default": {
+        "light": "default-light",
+        "dark": "default-dark"
+      },
+      "openapi": {
+        "light": "default-light",
+        "dark": "default-dark"
+      }
+    },
+    "search": "prominent"
+  },
+  "favicon": {
+    "icon": {
+      "light": "https://files.readme.io/22933f1-small-Blue.png",
+      "dark": "https://files.readme.io/22933f1-small-Blue.png"
+    }
+  },
+  "header": {
+    "preset": "default",
+    "logo": {
+      "light": "https://raw.githubusercontent.com/gitbook-demo-sites/nearmap-demo-site-20260707/main/assets/nearmap-wordmark.svg",
+      "dark": "https://raw.githubusercontent.com/gitbook-demo-sites/nearmap-demo-site-20260707/main/assets/nearmap-wordmark.svg"
+    },
+    "links": [
+      {
+        "to": {
+          "kind": "space",
+          "space": "sEEGu3MAxk91QBNm5LCe"
+        },
+        "links": [],
+        "style": "link",
+        "title": "Product docs",
+        "localizedTitle": {}
+      },
+      {
+        "to": {
+          "kind": "space",
+          "space": "KAzzMoG2KOgAYYdWkGHa"
+        },
+        "links": [],
+        "style": "link",
+        "title": "Developer & API",
+        "localizedTitle": {}
+      },
+      {
+        "to": {
+          "url": "https://www.nearmap.com/",
+          "kind": "url"
+        },
+        "links": [],
+        "style": "button-secondary",
+        "title": "Nearmap",
+        "localizedTitle": {}
+      }
+    ]
+  },
+  "footer": {
+    "logo": {
+      "light": "https://raw.githubusercontent.com/gitbook-demo-sites/nearmap-demo-site-20260707/main/assets/nearmap-wordmark.svg",
+      "dark": "https://raw.githubusercontent.com/gitbook-demo-sites/nearmap-demo-site-20260707/main/assets/nearmap-wordmark.svg"
+    },
+    "groups": [
+      {
+        "links": [
+          {
+            "to": {
+              "kind": "space",
+              "space": "cK22UXunchRIA3kQhEs0"
+            },
+            "title": "Home",
+            "localizedTitle": {}
+          },
+          {
+            "to": {
+              "kind": "space",
+              "space": "sEEGu3MAxk91QBNm5LCe"
+            },
+            "title": "Product Documentation",
+            "localizedTitle": {}
+          },
+          {
+            "to": {
+              "kind": "space",
+              "space": "KAzzMoG2KOgAYYdWkGHa"
+            },
+            "title": "Developer & API",
+            "localizedTitle": {}
+          }
+        ],
+        "title": "Demo sections",
+        "localizedTitle": {}
+      },
+      {
+        "links": [
+          {
+            "to": {
+              "url": "https://github.com/gitbook-demo-sites/nearmap-demo-site-20260707",
+              "kind": "url"
+            },
+            "title": "Source repo",
+            "localizedTitle": {}
+          },
+          {
+            "to": {
+              "url": "https://www.nearmap.com/",
+              "kind": "url"
+            },
+            "title": "Nearmap",
+            "localizedTitle": {}
+          },
+          {
+            "to": {
+              "url": "https://help.nearmap.com/",
+              "kind": "url"
+            },
+            "title": "Help Center",
+            "localizedTitle": {}
+          },
+          {
+            "to": {
+              "url": "https://developer.nearmap.com/",
+              "kind": "url"
+            },
+            "title": "API Hub",
+            "localizedTitle": {}
+          }
+        ],
+        "title": "Sources",
+        "localizedTitle": {}
+      }
+    ],
+    "copyright": "Nearmap Documentation Hub demo - built for review in GitBook."
+  },
+  "themes": {
+    "default": "light",
+    "toggeable": true
+  },
+  "trademark": {
+    "enabled": true
+  },
+  "feedback": {
+    "enabled": true
+  },
+  "ai": {
+    "mode": "assistant",
+    "suggestions": [
+      "How do I get started with MapBrowser?",
+      "Which Nearmap API should I use?",
+      "How does API key authentication work?",
+      "What does the AI Feature API return?"
+    ]
+  },
+  "advancedCustomization": {
+    "enabled": true
+  },
+  "pageActions": {
+    "items": [
+      "assistant",
+      "markdown",
+      "external-ai",
+      "mcp",
+      "pdf"
+    ]
+  },
+  "pagination": {
+    "enabled": true
+  },
+  "privacyPolicy": {
+    "url": "https://www.nearmap.com/privacy-policy"
+  },
+  "socialPreview": {
+    "url": "https://raw.githubusercontent.com/gitbook-demo-sites/nearmap-demo-site-20260707/main/assets/nearmap-cover.svg"
+  },
+  "socialAccounts": [
+    {
+      "handle": "company/nearmap-com",
+      "display": {
+        "footer": true,
+        "header": false
+      },
+      "platform": "linkedin"
+    }
+  ],
+  "externalLinks": {
+    "target": "self"
+  },
+  "insights": {
+    "trackingCookie": true
+  }
+}
