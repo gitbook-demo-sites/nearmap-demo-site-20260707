@@ -1,0 +1,223 @@
+openapi: 3.0.3
+info:
+  title: Nearmap AI Feature API Demo
+  version: "4.0"
+  description: Representative OpenAPI spec for one Nearmap API surface, based on the public AI Feature API documentation.
+servers:
+  - url: https://api.nearmap.com
+security:
+  - apiKeyQuery: []
+  - apiKeyHeader: []
+tags:
+  - name: AI Features
+  - name: Rollups
+  - name: Metadata
+paths:
+  /ai/features/v4/features.json:
+    get:
+      tags: [AI Features]
+      summary: Return AI features for an AOI and date range
+      parameters:
+        - $ref: "#/components/parameters/Polygon"
+        - $ref: "#/components/parameters/Since"
+        - $ref: "#/components/parameters/Until"
+        - $ref: "#/components/parameters/Packs"
+        - $ref: "#/components/parameters/Classes"
+      responses:
+        "200":
+          description: AI features returned as GeoJSON-like feature data.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/FeatureResponse"
+        "400":
+          description: Invalid AOI, date range, class, or pack request.
+        "401":
+          description: Missing or invalid API key.
+        "404":
+          description: No matching survey resources found.
+    post:
+      tags: [AI Features]
+      summary: Return AI features using an AOI in the request body
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/AoiRequest"
+      responses:
+        "200":
+          description: AI features returned for the requested AOI.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/FeatureResponse"
+        "400":
+          description: Invalid request body or unsupported query combination.
+  /ai/features/v4/classes.json:
+    get:
+      tags: [Metadata]
+      summary: List feature and attribute classes available to the caller
+      responses:
+        "200":
+          description: Class metadata.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  classes:
+                    type: array
+                    items:
+                      $ref: "#/components/schemas/Class"
+  /ai/features/v4/packs.json:
+    get:
+      tags: [Metadata]
+      summary: List AI packs available to the caller
+      responses:
+        "200":
+          description: Pack metadata.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  packs:
+                    type: array
+                    items:
+                      $ref: "#/components/schemas/Pack"
+  /ai/features/v4/rollups.json:
+    get:
+      tags: [Rollups]
+      summary: Return rolled-up AOI facts as JSON
+      parameters:
+        - $ref: "#/components/parameters/Polygon"
+        - $ref: "#/components/parameters/Since"
+        - $ref: "#/components/parameters/Until"
+        - $ref: "#/components/parameters/Packs"
+        - $ref: "#/components/parameters/Classes"
+      responses:
+        "200":
+          description: Aggregated facts for the query AOI.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/RollupResponse"
+    post:
+      tags: [Rollups]
+      summary: Return rolled-up AOI facts using a request body
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/AoiRequest"
+      responses:
+        "200":
+          description: Aggregated facts for the query AOI.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/RollupResponse"
+components:
+  securitySchemes:
+    apiKeyQuery:
+      type: apiKey
+      in: query
+      name: apikey
+    apiKeyHeader:
+      type: apiKey
+      in: header
+      name: Authorization
+  parameters:
+    Polygon:
+      name: polygon
+      in: query
+      schema:
+        type: string
+      description: Closed longitude/latitude polygon for the query AOI.
+    Since:
+      name: since
+      in: query
+      schema:
+        type: string
+        format: date
+      description: Earliest capture date to consider.
+    Until:
+      name: until
+      in: query
+      schema:
+        type: string
+        format: date
+      description: Latest capture date to consider.
+    Packs:
+      name: packs
+      in: query
+      schema:
+        type: string
+      description: Comma-separated AI pack IDs.
+    Classes:
+      name: classes
+      in: query
+      schema:
+        type: string
+      description: Comma-separated feature class IDs.
+  schemas:
+    AoiRequest:
+      type: object
+      properties:
+        aoi:
+          type: object
+          description: GeoJSON Polygon with no interior rings.
+        classes:
+          type: array
+          items:
+            type: string
+        packs:
+          type: array
+          items:
+            type: string
+    FeatureResponse:
+      type: object
+      properties:
+        type:
+          type: string
+          example: FeatureCollection
+        features:
+          type: array
+          items:
+            type: object
+            properties:
+              id:
+                type: string
+              geometry:
+                type: object
+              properties:
+                type: object
+    RollupResponse:
+      type: object
+      additionalProperties: true
+      example:
+        roof_count: 3
+        total_roof_area_sqft: 4210
+        largest_roof_material: tile
+    Class:
+      type: object
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        type:
+          type: string
+    Pack:
+      type: object
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        classes:
+          type: array
+          items:
+            type: string

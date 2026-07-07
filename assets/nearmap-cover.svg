@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="520" viewBox="0 0 1600 520" role="img" aria-label="Nearmap Documentation Hub">
+  <rect width="1600" height="520" fill="#F7F9FC"/>
+  <rect x="0" y="0" width="1600" height="18" fill="#08112E"/>
+  <rect x="1040" y="88" width="394" height="300" rx="10" fill="#FFFFFF" stroke="#D9E1F2"/>
+  <rect x="1080" y="128" width="314" height="170" rx="6" fill="#EAF1FF"/>
+  <path d="M1080 264 L1162 196 L1226 232 L1294 162 L1394 246 L1394 298 L1080 298 Z" fill="#3448FF" opacity=".18"/>
+  <path d="M1080 232 L1146 184 L1200 208 L1268 140 L1394 222" fill="none" stroke="#3448FF" stroke-width="5"/>
+  <rect x="1080" y="324" width="128" height="12" rx="6" fill="#08112E"/>
+  <rect x="1228" y="324" width="166" height="12" rx="6" fill="#3448FF"/>
+  <rect x="1080" y="352" width="314" height="10" rx="5" fill="#D9E1F2"/>
+  <rect x="1080" y="376" width="236" height="10" rx="5" fill="#D9E1F2"/>
+  <text x="96" y="184" font-family="Arial, Helvetica, sans-serif" font-size="86" font-weight="700" fill="#08112E" letter-spacing="0">Nearmap</text>
+  <text x="100" y="250" font-family="Arial, Helvetica, sans-serif" font-size="31" fill="#3448FF">Documentation Hub</text>
+  <text x="102" y="304" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#26334D">Product guides, support content, and API reference in one governed experience.</text>
+  <rect x="102" y="356" width="264" height="44" rx="6" fill="#3448FF"/>
+  <text x="126" y="385" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">Property intelligence docs</text>
+</svg>
