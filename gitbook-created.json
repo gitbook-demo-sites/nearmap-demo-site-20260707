@@ -1,0 +1,88 @@
+{
+  "org": "CnKiKmimJyVAnHLQcyf1",
+  "site": "site_dOGMQ",
+  "spaces": {
+    "HOME": "cK22UXunchRIA3kQhEs0",
+    "PRODUCT": "sEEGu3MAxk91QBNm5LCe",
+    "API": "KAzzMoG2KOgAYYdWkGHa"
+  },
+  "sections": {
+    "HOME": "sitesc_GJl58",
+    "PRODUCT": "sitesc_Hfr2R",
+    "API": "sitesc_6UX0w"
+  },
+  "site_spaces": {
+    "HOME": "sitesp_BQMiR",
+    "PRODUCT": "sitesp_JBUyz",
+    "API": "sitesp_VaehT"
+  },
+  "site_object": {
+    "object": "site",
+    "id": "site_dOGMQ",
+    "type": "ultimate",
+    "appliedType": "ultimate",
+    "title": "Nearmap Documentation Hub",
+    "icon": {
+      "icon": {
+        "dark": "https://www.google.com/s2/favicons?domain=gitbook.io&sz=256",
+        "light": "https://www.google.com/s2/favicons?domain=gitbook.io&sz=256"
+      }
+    },
+    "basename": "nearmap-documentation-hub",
+    "visibility": "share-link",
+    "permissionsModel": "site",
+    "defaultLevel": null,
+    "published": false,
+    "createdAt": "2026-07-07T11:44:29.000Z",
+    "siteSpaces": 0,
+    "features": [
+      {
+        "id": "sites-share-links",
+        "plan": "premium",
+        "frozen": false
+      },
+      {
+        "id": "sites-ai-assistant",
+        "plan": "ultimate",
+        "frozen": false
+      },
+      {
+        "id": "sites-pdf-export",
+        "plan": "premium",
+        "frozen": false
+      },
+      {
+        "id": "sites-page-feedback",
+        "plan": "premium",
+        "frozen": false
+      }
+    ],
+    "urls": {
+      "location": "/orgs/CnKiKmimJyVAnHLQcyf1/sites/site_dOGMQ",
+      "app": "https://app.gitbook.com/o/CnKiKmimJyVAnHLQcyf1/sites/site_dOGMQ",
+      "preview": "https://sites.gitbook.com/preview/site_dOGMQ/"
+    }
+  },
+  "openapi": {
+    "created": true,
+    "slug": "nearmap-ai-feature-api-demo",
+    "spec": {
+      "object": "openapi-spec",
+      "id": "oas_sEBE2",
+      "createdAt": "2026-07-07T11:44:28.000Z",
+      "updatedAt": "2026-07-07T11:44:28.000Z",
+      "slug": "nearmap-ai-feature-api-demo",
+      "processingState": "pending",
+      "visibility": "public",
+      "lastProcessedErrorCount": 0,
+      "permissions": {
+        "view": true,
+        "edit": true
+      },
+      "urls": {
+        "app": "https://app.gitbook.com/o/CnKiKmimJyVAnHLQcyf1/openapi/nearmap-ai-feature-api-demo",
+        "location": "/orgs/CnKiKmimJyVAnHLQcyf1/openapi/nearmap-ai-feature-api-demo"
+      }
+    }
+  }
+}

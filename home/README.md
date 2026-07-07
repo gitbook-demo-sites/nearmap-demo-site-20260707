@@ -43,8 +43,8 @@ This demo follows the Evolve example pattern: a strong homepage, visible product
 ## Choose your path
 
 <table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody>
-<tr><td><h4><i class="fa-map-location-dot" style="color:$primary;"></i></h4></td><td><h4><strong>Product documentation</strong></h4></td><td>MapBrowser, Roof Assessment, Betterview, admin tasks, and support workflows.</td><td><a href="https://app.gitbook.com/s/XSPACE_PRODUCT/">Product documentation</a></td></tr>
-<tr><td><h4><i class="fa-code" style="color:$primary;"></i></h4></td><td><h4><strong>Developer and API</strong></h4></td><td>API chooser, authentication, standards, and generated AI Feature API reference.</td><td><a href="https://app.gitbook.com/s/XSPACE_API/">Developer and API</a></td></tr>
+<tr><td><h4><i class="fa-map-location-dot" style="color:$primary;"></i></h4></td><td><h4><strong>Product documentation</strong></h4></td><td>MapBrowser, Roof Assessment, Betterview, admin tasks, and support workflows.</td><td><a href="https://app.gitbook.com/s/sEEGu3MAxk91QBNm5LCe/">Product documentation</a></td></tr>
+<tr><td><h4><i class="fa-code" style="color:$primary;"></i></h4></td><td><h4><strong>Developer and API</strong></h4></td><td>API chooser, authentication, standards, and generated AI Feature API reference.</td><td><a href="https://app.gitbook.com/s/KAzzMoG2KOgAYYdWkGHa/">Developer and API</a></td></tr>
 <tr><td><h4><i class="fa-route" style="color:$primary;"></i></h4></td><td><h4><strong>Demo map</strong></h4></td><td>What was consolidated, what was left out, and where feedback is most useful.</td><td><a href="demo-map.md">Demo map</a></td></tr>
 </tbody></table>
 
@@ -57,7 +57,7 @@ This demo follows the Evolve example pattern: a strong homepage, visible product
 
 The public Help Center already organizes MapBrowser, Roof Assessment, Betterview, Nearmap Content, Integrations, APIs, and account management. GitBook keeps that reader model, then adds clearer landing pages and reusable review workflows.
 
-<a href="https://app.gitbook.com/s/XSPACE_PRODUCT/" class="button secondary">Open product docs</a>
+<a href="https://app.gitbook.com/s/sEEGu3MAxk91QBNm5LCe/" class="button secondary">Open product docs</a>
 </details>
 
 <details open>
@@ -65,7 +65,7 @@ The public Help Center already organizes MapBrowser, Roof Assessment, Betterview
 
 The API Hub explains how to choose between Tile, Coverage, AI Feature, Roof Age, WMS, DSM/True Ortho, Transactional Content, and Betterview APIs. This demo narrows the generated reference to AI Feature API.
 
-<a href="https://app.gitbook.com/s/XSPACE_API/" class="button secondary">Open developer docs</a>
+<a href="https://app.gitbook.com/s/KAzzMoG2KOgAYYdWkGHa/" class="button secondary">Open developer docs</a>
 </details>
 {% endcolumn %}
 
